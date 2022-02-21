@@ -361,6 +361,21 @@
             </a></li>
           </ul>
         </div> 
+        <div class="newsletter">
+           <h4 class="right-footer-h4"><b>Zapisz się do newslettera</b></h4>
+           <form>
+             <label class="newsletter-label" for="email">    
+              <input class="newsletter-window" type="email" name="email" placeholder="E-mail" id="email">
+              <button class="model-btn-newsletter" type="submit">Zapisz się  
+                <svg class="icon-newsletter">
+                <use href="images/icons.svg/sprite.svg#icon-icon-send"></use>
+              </svg>
+              </button>
+             </label>
+           </form>
+
+
+        </div>
       </div>
     </footer>
 
@@ -370,10 +385,44 @@
         <svg class="close-icon">
           <use href="images/icons.svg/sprite.svg#icon-close-black-18dp-2-1"></use>
         </svg>
-        </button>
+        </button>     
+        <h3>Zostaw swoje dane w formularzu poniżej</h3>
+<form>
+  <label class="modal-label" for="name">
+    Imię
+    
+    <input class="modal-input" type="text" required name="username" id="name"/>
+    <svg class="icon-modal">
+                <use href="images/icons.svg/sprite.svg#icon-person-black-18dp-1"></use>
+              </svg>
+          
+            
+  </label>
+
+  <label class="modal-label" for="tel">
+    Telefon
+    <input class="modal-input" type="tel" name="phone_number" id="tel" />
+  </label>
+
+
+
+  <label class="modal-label" for="email">
+    Email
+    <input class="modal-input" type="email" name="email" id="email" />
+    
+  </label> 
+
+
+ <label class="modal-label" for="feedback">
+    Komentarz
+    <textarea class="modal-textarea" name="feedback" placeholder="Wprowadź tekst" id="feedback"></textarea>
+  </label>
+
         <form class="modal-form" action="#" method="post">
         <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
         <label for="user-policy" class="modal-form-policy-text"><span class="policy-text-margin">Oświadczam, iż akceptuję </span><a class="policy-text-link" href="#">Regulamin</a><span class="policy-text"> i </span><a class="policy-text-link" href="#">Politykę Prywatności.</a></label>
+      </form>
+      <button class="model-btn" type="submit">Wyślij</button>
       </form>
       </div>
     </div>
