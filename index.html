@@ -386,29 +386,38 @@
           <use href="images/icons.svg/sprite.svg#icon-close-black-18dp-2-1"></use>
         </svg>
         </button>     
-        <h3>Zostaw swoje dane w formularzu poniżej</h3>
+        <h3 class="modal-h3">Zostaw swoje dane w formularzu poniżej</h3>
 <form>
   <label class="modal-label" for="name">
     Imię
-    
-    <input class="modal-input" type="text" required name="username" id="name"/>
+    <div class="modal-div">
     <svg class="icon-modal">
                 <use href="images/icons.svg/sprite.svg#icon-person-black-18dp-1"></use>
               </svg>
-          
-            
+          <input class="modal-input" type="text" required name="username" id="name"/>
+            </div>
   </label>
 
   <label class="modal-label" for="tel">
     Telefon
+    <div class="modal-div">
+    <svg class="icon-modal">
+                <use href="images/icons.svg/sprite.svg#icon-phone-black-18dp-1"></use>
+              </svg>
     <input class="modal-input" type="tel" name="phone_number" id="tel" />
+    </div>
   </label>
 
 
 
   <label class="modal-label" for="email">
     Email
+    <div class="modal-div">
+    <svg class="icon-modal">
+                <use href="images/icons.svg/sprite.svg#icon-email-black-18dp-1"></use>
+              </svg>
     <input class="modal-input" type="email" name="email" id="email" />
+    </div>
     
   </label> 
 
