@@ -378,7 +378,6 @@
         </div>
       </div>
     </footer>
-
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
@@ -397,7 +396,6 @@
           <input class="modal-input" type="text" required name="username" id="name"/>
             </div>
   </label>
-
   <label class="modal-label" for="tel">
     Telefon
     <div class="modal-div">
@@ -407,9 +405,6 @@
     <input class="modal-input" type="tel" name="phone_number" id="tel" />
     </div>
   </label>
-
-
-
   <label class="modal-label" for="email">
     Email
     <div class="modal-div">
@@ -424,13 +419,22 @@
 
  <label class="modal-label" for="feedback">
     Komentarz
+    <div class="modal-div-textarea">
     <textarea class="modal-textarea" name="feedback" placeholder="Wprowadź tekst" id="feedback"></textarea>
+    </div>
   </label>
 
+  <div class="div-policy">
+   
         <form class="modal-form" action="#" method="post">
         <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
-        <label for="user-policy" class="modal-form-policy-text"><span class="policy-text-margin">Oświadczam, iż akceptuję </span><a class="policy-text-link" href="#">Regulamin</a><span class="policy-text"> i </span><a class="policy-text-link" href="#">Politykę Prywatności.</a></label>
+        <label for="user-policy" class="modal-form-policy-text">
+          <span class="policy-text-margin">Oświadczam, iż akceptuję </span>
+          <a class="policy-text-link" href="#">Regulamin</a>
+          <span class="policy-text"> i </span><a class="policy-text-link" href="#">Politykę Prywatności.</a></label>
       </form>
+      </div>
+
       <button class="model-btn" type="submit">Wyślij</button>
       </form>
       </div>
