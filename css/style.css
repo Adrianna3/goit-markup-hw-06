@@ -977,8 +977,7 @@ outline: none;
 
 .modal-input:focus,
 .modal-div:focus,
-.modal-textarea:focus,
-.modal-label:focus{
+.modal-textarea:focus{
   border: 1px solid var(--main-color);
 }
 
