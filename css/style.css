@@ -984,7 +984,7 @@ input{
   outline: none;
 }
 
-.modal-input:focus+ .icon-modal{
+.modal-div:focus-within .icon-modal{
   fill: var(--main-color);
   border-color: var(--main-color);
 }
@@ -1012,7 +1012,9 @@ input{
   background: #2196F3;
   border-radius: 2px;
   border:none;
-  background-image: url("../images/symbol-defs1.svg#icon-Vector") no-repeat;
+  background-image: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .div-policy{
