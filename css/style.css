@@ -978,17 +978,13 @@ input{
   padding: 0;
 }
 
-.div-policy{
-  margin-bottom: 20px;
-}
-
 .modal-input:focus,
 .modal-textarea:focus{
   border-color: var(--main-color);
   outline: none;
 }
 
-.modal-input:focus + .icon-modal{
+.modal-input:focus+ .icon-modal{
   fill: var(--main-color);
   border-color: var(--main-color);
 }
@@ -1019,6 +1015,9 @@ input{
   background-image: url("../images/symbol-defs1.svg#icon-Vector") no-repeat;
 }
 
+.div-policy{
+  margin-bottom: 20px;
+}
 .policy-text-margin,
 .policy-text,
 .policy-text-link{
